@@ -12,7 +12,7 @@ public class RotatedArray {
 			 arr[i] = sc.nextInt();
 		 }
 		 
-		 for(int j=0;j<3;j++) {    // Here J is used how many times to rotate an array
+		 for(int j=0;j<3;j++) {    
 			 int temp = arr[n-1];    // j is tells number of rotations 
 			 for(int i=n-1;i>0;i--) {
 				 arr[i] = arr[i-1];
