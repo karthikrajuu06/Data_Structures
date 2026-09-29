@@ -33,6 +33,16 @@ public class Mergesort {
 		     int i = 0,j=0,k=0;
 		     while(i<left && j<right) {
 		    	if(leftArr[i]<rightArr[j]) {
+		    		arr[k++] = leftArr[i++];
+		    		
+		    	}else {
+		    		arr[k++] = rightArr[j++];
+		    	}
+		    	while(j<left) {
+		    		arr[k++] = rightArr[i++];
+		    	}
+		    	while(j<right) {
+		    		arr[k++] = right
 		    		
 		    	}
 		     }
@@ -40,8 +50,9 @@ public class Mergesort {
 	}
 
 	public static void main(String[] args) {
-		
-
+		int arr[] = {5,9,2,8,1,6,3};
+		mergeSort(arr,no)
+ 
 	}
 
 }
