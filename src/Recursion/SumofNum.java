@@ -6,7 +6,7 @@ public class SumofNum {
 		int n = 5;  
 		
 		int result = sum(n);
-		System.out.println("The sum of first " + n + " numbers is: " + result);
+		System.out.println(result);
 	}
 
 	 
