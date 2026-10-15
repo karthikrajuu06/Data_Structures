@@ -16,7 +16,7 @@ public class InsertPosition {
                 low = mid + 1;
             } else {
                 high = mid - 1;
-            }
+            } 
         }
         return low; // returns the index where target should be inserted
     }
