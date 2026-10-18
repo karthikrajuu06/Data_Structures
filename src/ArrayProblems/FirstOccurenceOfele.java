@@ -13,7 +13,7 @@ public class FirstOccurenceOfele {
 			
 			if(arr[mid]==target) {
 				num = mid;
-				right = mid-1; // go to left to find first occur
+				right = mid-1; // go to left to find first occurence
 				
 			}else if(target<arr[mid]) {
 				 right = mid+1;
