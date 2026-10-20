@@ -1,6 +1,6 @@
 package Polymorphism;
 
-public class Calculator  {
+public class Demo {
 
 	// Parent class demonstrating Runtime Polymorphism
 	class Animal {
